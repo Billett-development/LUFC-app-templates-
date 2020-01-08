@@ -1,0 +1,145 @@
+.news__articles {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    margin-top: 5rem;
+    position: relative;
+
+
+    &-1 {
+
+        grid-area: 1 / 1 / 2 / 2;
+        height: 35vh;
+        margin-bottom: 5rem;
+        margin-right: 5rem;
+
+        background-image: url("../img/leeds-players.jpg");
+        background-size: cover;
+        
+        &-overlay { @include imageOverlay; }
+
+        &:hover &-overlay{ opacity: .8; }
+
+        &-text {
+
+            @include absCenter;
+            color: #fff;
+
+            h3 {
+                font-size: 3rem;
+            }
+
+            p {
+                font-size: 2rem;
+            }
+        }
+
+
+    }
+
+    &-2 {
+
+        grid-area: 1 / 2 / 2 / 3;
+        margin-bottom: 5rem;
+        margin-left: 5rem;
+
+        background-image: url("../img/leeds-players.jpg");
+        background-size: cover;
+
+        &-overlay { @include imageOverlay; }
+
+        &:hover &-overlay{ opacity: .8; }
+
+        &-text {
+
+            @include absCenter;
+            color: #fff;
+
+            h3 {
+                font-size: 3rem;
+            }
+
+            p {
+                font-size: 2rem;
+            }
+        }
+    }
+
+    &-3 {
+
+        grid-area: 2 / 1 / 3 / 2;
+        margin-right: 5rem;
+
+        background-image: url("../img/leeds-players.jpg");
+        background-size: cover;
+
+        &-overlay { @include imageOverlay; }
+
+        &:hover &-overlay{ opacity: .8; }
+
+        &-text {
+
+            @include absCenter;
+            color: #fff;
+
+            h3 {
+                font-size: 3rem;
+            }
+
+            p {
+                font-size: 2rem;
+            }
+        }
+    }
+
+    &-4 {
+        grid-area: 2 / 2 / 3 / 3;
+
+        margin-left: 5rem;
+
+        background-image: url("../img/leeds-players.jpg");
+        background-size: cover;
+
+        &-overlay { @include imageOverlay; }
+
+        &:hover &-overlay{ opacity: .8; }
+
+        &-text {
+
+            @include absCenter;
+            color: #fff;
+
+            h3 {
+                font-size: 3rem;
+            }
+
+            p {
+                font-size: 2rem;
+            }
+        }
+    }
+
+
+    &-btn {
+
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+
+        a {
+            font-size: $section-heading;
+            text-transform: uppercase;
+            border: 1px solid $primary-blue;
+            padding: 1rem;
+        }
+        
+        
+
+    }
+
+
+}

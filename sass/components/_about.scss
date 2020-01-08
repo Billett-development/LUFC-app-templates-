@@ -1,0 +1,43 @@
+.about {
+
+    display: flex;
+    justify-content: space-between;
+    
+
+    &__info {
+        
+        display: flex;
+        
+        flex-direction: column;
+        flex: 0 0 47.5%;
+        
+        height: 50vh;
+        padding: 3rem;
+        
+            h3 {
+                font-size: 4rem;
+                margin-top: 20%;
+                text-transform: uppercase;
+            }
+
+            p {
+                margin-top: 5%;
+                font-size: 1.5rem;
+
+            }
+    }
+
+    &__logo {
+
+        display: flex;
+        flex: 0 0 47.5%;
+        padding: 3rem;
+
+        background-image: url("../img/icon-placeholder.png");
+        background-size: 100% 100%;
+
+    }
+
+
+
+}

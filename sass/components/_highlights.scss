@@ -1,0 +1,14 @@
+.highlights {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__video {
+
+        margin-left: 10%;
+        width: 80%;
+        height: 50vh;
+        border: 1px solid #555;
+    }
+}
