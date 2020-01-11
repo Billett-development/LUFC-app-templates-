@@ -4,15 +4,33 @@
 
 .section-hero {
     position: relative;
+    margin-bottom: $section-margin;
 }
 
 .section-news {
 
-    
+    margin: $section-margin;
+}
+
+.section-about {
+
+    margin: $section-margin;
 }
 
 
 .section-contact {
 
-    margin-top: 5rem;
+    margin: $section-margin;
+}
+
+.section-products {
+
+    margin: $section-margin;
+}
+
+.section-footer {
+
+    background-color: $primary-blue;
+    color: #fff;
+    padding-top: 3rem;
 }

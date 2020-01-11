@@ -46,25 +46,27 @@ $large-padding: 0.9375rem;
 //////////////////////////////////////////////////////////
 /////// FONTS
 
-$hero-text: 5rem;
+$hero-text: 10rem;
 
-$section-heading: 2.25rem;
+$section-heading: 2.5rem;
 
 $menu-item: 1.25rem;
 
 $primary-text: 0.9375rem;
 
 
+//// SECTION MARGINS
+
+$section-margin: 5rem;
 
 
-
-
-
+//// CONTACT FORM BORDER
+$form-border: 1px solid $primary-blue;
 
 
 /// Container's maximum width
 /// @type Length
-$max-width: 1180px !default;
+$max-width: 1200px !default;
 
 
 

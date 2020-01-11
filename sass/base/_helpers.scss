@@ -54,20 +54,16 @@
   width: 1px;
 }
 
+.ion-icon {
 
-////////////////////////////////////////////////////
-//////// MARGINS
+  font-size: 3rem;
+  transition: all .4s;
 
-.small-margin {
-  margin: 0.3125rem;
+    &:hover {
+      color: $primary-yellow;
+      transform: scale(1.4);
+    }
+  
 }
 
-.medium-margin {
-  margin: 0.625rem;
-}
 
-.large-margin {
-
-  //margin: 0.9375rem;
-  margin: 5rem;
-}

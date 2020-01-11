@@ -4,7 +4,145 @@
 
 .footer {
 
-    height: 10vh;
-    background-color: $primary-blue;
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    padding: 0 5rem;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 5rem;
+    grid-row-gap: 1rem;
+
+    &__contact {
+
+        grid-area: 1 / 1 / 3 / 2;
+
+        &-header {
+            height: 20%;
+            font-size: 3rem;
+            text-align: center;
+            
+        }
+
+        &-address {
+
+            display: flex;
+            height: 40%;
+            font-size: 1.5rem;
+            padding: 4px;
+
+                ion-icon {
+                    font-size: 3rem;
+                    margin-right: 4px;
+                }
+           
+        }
+
+        &-email {
+
+            height: 20%;
+            display: flex;
+            font-size: 2rem;
+            margin-left: 2.5px;
+            
+                a  { 
+                    color: #fff; 
+                }
+                ion-icon {
+                    font-size: 3rem;
+                    margin-right: 4px;
+                }
+            
+        }
+
+        &-links {
+
+            
+            height: 20%;
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+    }
+
+    // &__nav {
+        
+    //     grid-area: 1 / 2 / 2 / 5;
+        
+    //     &-list {
+
+    //         display: flex;
+    //         justify-content: space-between;
+    //         align-items: center;
+            
+
+    //         font-size: 2rem;
+    //         font-weight: 700;
+    //         list-style: none;
+
+    //         &-item {
+
+    //             color: #fff;
+    //             text-align: center;
+    //             text-decoration: none;
+    //             text-transform: uppercase;
+                
+    //         }
+    //     }
+    // }
+
+    &__details {
+
+        grid-area: 1 / 2 / 3 / 5;
+        display: flex;
+
+            &-hours {
+
+                width: 33%;
+                font-size: 1.5rem;
+
+                h5 {
+                    font-size: 3rem;
+                    margin-bottom: 1.3rem;
+                }
+            
+
+            }
+
+            &-terms {
+                width: 33%;
+                li{
+                        list-style: none;
+                          a { color: #fff; } } 
+                }
+
+                h5 {
+                    font-size: 3rem;
+                    margin-bottom: 1.3rem;
+                    
+                }
+
+            &-newsletter {
+
+                width: 33%;
+
+                h5 {
+                    font-size: 3rem;
+                    margin-bottom: 1.3rem;
+                    
+                }
+            }
+
+    }
+
+    &__copyright {
+
+        grid-area: 3 / 1 / 4 / 5;
+        font-size: 1.5rem;
+        
+    }
     
 }
